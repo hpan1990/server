@@ -2,9 +2,9 @@
 const mysql = require('mysql')
 
 exports.pool = mysql.createPool({
-    host: '42.192.51.136',
-    port: '3316',
-    user: 'root',
-    password: '1234',
+    host: 'xxx',
+    port: '3306',
+    user: 'xxx',
+    password: 'xxx',
     database: 'web_demo'
 })
